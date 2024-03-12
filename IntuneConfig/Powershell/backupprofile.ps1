@@ -38,17 +38,17 @@ else {
 }
 
 ##Download Backup Script
-$backupurl="https://raw.githubusercontent.com/andrew-s-taylor/public/main/Batch%20Scripts/backup.bat"
+$backupurl="https://raw.githubusercontent.com/joschahenningsen/winscripts/main/Batch%20Scripts/backup.bat"
 $backupscript = "c:\backup-restore\backup.bat"
 Invoke-WebRequest -Uri $backupurl -OutFile $backupscript -UseBasicParsing
 
 ##Download Restore Script
-$restoreurl="https://raw.githubusercontent.com/andrew-s-taylor/public/main/Batch%20Scripts/NEWrestore.bat"
+$restoreurl="https://raw.githubusercontent.com/joschahenningsen/winscripts/main/Batch%20Scripts/NEWrestore.bat"
 $restorescript = "c:\backup-restore\restore.bat"
 Invoke-WebRequest -Uri $restoreurl -OutFile $restorescript -UseBasicParsing
 
 ##Download Silent Launch Script
-$launchurl="https://raw.githubusercontent.com/andrew-s-taylor/public/main/Batch%20Scripts/run-invisible.vbs"
+$launchurl="https://raw.githubusercontent.com/joschahenningsen/winscripts/main/Batch%20Scripts/run-invisible.vbs"
 $launchscript = "c:\backup-restore\run-invisible.vbs"
 Invoke-WebRequest -Uri $launchurl -OutFile $launchscript -UseBasicParsing
 

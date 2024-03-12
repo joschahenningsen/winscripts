@@ -6,8 +6,8 @@
 .COMPANYNAME 
 .COPYRIGHT GPL
 .TAGS Intune Autopilot
-.LICENSEURI https://github.com/andrew-s-taylor/public/blob/main/LICENSE
-.PROJECTURI https://github.com/andrew-s-taylor/public
+.LICENSEURI https://github.com/joschahenningsen/winscripts/blob/main/LICENSE
+.PROJECTURI https://github.com/joschahenningsen/winscripts
 .ICONURI 
 .EXTERNALMODULEDEPENDENCIES
 .REQUIREDSCRIPTS 
@@ -70,14 +70,14 @@ Install-Script -Name Get-AutopilotDiagnostics -Force
 
 ##Download ServiceUI
 Invoke-WebRequest `
--Uri "https://github.com/andrew-s-taylor/public/raw/main/Troubleshooting/ServiceUI.exe" `
+-Uri "https://github.com/joschahenningsen/winscripts/raw/main/Troubleshooting/ServiceUI.exe" `
 -OutFile $templateFilePath `
 -UseBasicParsing `
 -Headers @{"Cache-Control"="no-cache"}
 
 ##Download CMTrace
 Invoke-WebRequest `
--Uri "https://github.com/andrew-s-taylor/public/raw/main/Troubleshooting/CMTrace.exe" `
+-Uri "https://github.com/joschahenningsen/winscripts/raw/main/Troubleshooting/CMTrace.exe" `
 -OutFile $cmtraceoutput `
 -UseBasicParsing `
 -Headers @{"Cache-Control"="no-cache"}
@@ -85,7 +85,7 @@ Invoke-WebRequest `
 
 ##Download tools.ps1
 Invoke-WebRequest `
--Uri "https://github.com/andrew-s-taylor/public/raw/main/Troubleshooting/tools.ps1" `
+-Uri "https://github.com/joschahenningsen/winscripts/raw/main/Troubleshooting/tools.ps1" `
 -OutFile $scriptoutput `
 -UseBasicParsing `
 -Headers @{"Cache-Control"="no-cache"}

@@ -6,8 +6,8 @@
 .COMPANYNAME 
 .COPYRIGHT GPL
 .TAGS Intune Autopilot
-.LICENSEURI https://github.com/andrew-s-taylor/public/blob/main/LICENSE
-.PROJECTURI https://github.com/andrew-s-taylor/public
+.LICENSEURI https://github.com/joschahenningsen/winscripts/blob/main/LICENSE
+.PROJECTURI https://github.com/joschahenningsen/winscripts
 .ICONURI 
 .EXTERNALMODULEDEPENDENCIES
 .REQUIREDSCRIPTS 

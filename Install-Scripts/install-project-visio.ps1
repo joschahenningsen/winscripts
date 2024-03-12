@@ -6,8 +6,8 @@
 .COMPANYNAME 
 .COPYRIGHT GPL
 .TAGS az autopilot aad intune project visio
-.LICENSEURI https://github.com/andrew-s-taylor/public/blob/main/LICENSE
-.PROJECTURI https://github.com/andrew-s-taylor/public
+.LICENSEURI https://github.com/joschahenningsen/winscripts/blob/main/LICENSE
+.PROJECTURI https://github.com/joschahenningsen/winscripts
 .ICONURI 
 .EXTERNALMODULEDEPENDENCIES AzureADPreview
 .REQUIREDSCRIPTS 
@@ -1296,7 +1296,7 @@ $path = "c:\temp\" + $path2 + "\"
 New-Item -ItemType Directory -Path $path
 
 # Find the app
-$appurl = "https://github.com/andrew-s-taylor/public/raw/main/Install-Scripts/Project/Deploy-Application.intunewin"
+$appurl = "https://github.com/joschahenningsen/winscripts/raw/main/Install-Scripts/Project/Deploy-Application.intunewin"
 
 #Set the download location
 $output = "c:\temp\" + $path2 + "\Deploy-Application.intunewin"
@@ -1390,7 +1390,7 @@ $path = "c:\temp\" + $path2 + "\"
 New-Item -ItemType Directory -Path $path
 
 # Find the app
-$appurl = "https://github.com/andrew-s-taylor/public/raw/main/Install-Scripts/Visio/Deploy-Application.intunewin"
+$appurl = "https://github.com/joschahenningsen/winscripts/raw/main/Install-Scripts/Visio/Deploy-Application.intunewin"
 
 #Set the download location
 $output = "c:\temp\" + $path2 + "\Deploy-Application.intunewin"
